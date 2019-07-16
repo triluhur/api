@@ -1,5 +1,4 @@
-{
-  "pekerjaan": [
+[
     { "id": 1, "title": "Quarry Tanah", "list": [
       {"id":1, "title": "Hasil uji laboratorium sesuai spesifikasi ( CBR, PI, LL, Dry density lab.)"},
       {"id":2, "title": "Maksimum size butiran dan warna sesuai hasil uji atau sesuai contoh yang di uji"}
@@ -8,5 +7,4 @@
       {"id":1, "title": "Ada hasil Pengujian Tanah dan hasil trial compaction setiap quarry tanah"},
       {"id":2, "title": "Jumlah lintasan pemadatan sesuai hasil Trial Compaction"}
     ] }
-  ]
-}
+]

@@ -11,6 +11,40 @@
     "title": "second title",
     "body": "test"
   }],
+ "jobs": [
+   {
+     "userId": 2,
+     "id": 1,
+     "title": "Quarry Tanah"
+   },
+   {
+     "userId": 2,
+     "id": 2,
+     "title": "Timbunan tanah"
+   },
+   {
+     "userId": 1,
+     "id":3,
+     "title": "Galian Tanah"
+   }
+  ],
+ "listjobs": [
+   {
+     "jobId": 1,
+     "id": 1,
+     "title": "Hasil uji laboratorium sesuai spesifikasi ( CBR, PI, LL, Dry density lab.)"
+   },
+   {
+     "jobId": 1,
+     "id": 2,
+     "title": "Maksimum size butiran dan warna sesuai hasil uji atau sesuai contoh yang di uji)"
+   },
+   {
+     "jobId": 2,
+     "id": 3,
+     "title": "Ada hasil Pengujian Tanah dan hasil trial compaction setiap quarry tanah"
+   }
+  ]
  "users": [
   {
     "id": 1,

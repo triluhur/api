@@ -92,7 +92,9 @@
       "bs": "synergize scalable supply-chains"
     }
   } ],
- "results": [
+ "results":
+ { "results" :
+   [
     {
       "title": "Ginger Champagne",
       "href": "http://allrecipes.com/Recipe/Ginger-Champagne/Detail.aspx",
@@ -154,4 +156,5 @@
       "thumbnail": "http://img.recipepuppy.com/10.jpg"
     }
   ]
+ }
 }

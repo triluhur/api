@@ -12,28 +12,36 @@
     "body": "test"
   }],
  "jobs":
- { "title" : "Pekerjaan Tanah",
-   "results" : [
-   {
-     "id": 1,
-     "title": "1. Quarry Tanah"
-   },
-   {
-     "id": 2,
-     "title": "2. Timbunan tanah"
-   },
-   {
-     "id":3,
-     "title": "3. Galian Tanah"
-   },
-   {
-     "id": 4,
-     "title": "4. Pembelian tanah"
-   },
-   {
-     "id":5,
-     "title": "5. Membangun"
-   }
+ { "unit" : "DK I",
+   "proyek" : "Pembangunan jalan tol",
+   "results" : 
+  [
+    {
+      "id" : "1",
+      "pekerjaan": "Pekerjaan Tanah",
+      "kriteria" :
+      [
+         {
+           "id": "1",
+           "title": "1. Quarry Tanah"
+         },
+         {
+           "id": "1",
+           "title": "2. Timbunan tanah"
+         },
+         {
+           "id": "1",
+           "title": "3. Galian Tanah"
+         }
+      ]
+     },
+    {
+      "id" : "2",
+       "pekerjaan": "Pekerjaan perkerasan berbutir",
+       "kriteria" :
+       [
+       ]
+    }
   ]
  },
  "listjobs": [

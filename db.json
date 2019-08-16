@@ -41,6 +41,13 @@
        "kriteria" :
        [
        ]
+    },
+    {
+      "id" : "3",
+       "pekerjaan": "Pekerjaan bors",
+       "kriteria" :
+       [
+       ]
     }
   ]
  },

@@ -1,177 +1,107 @@
-{ "data": [
-  {
-    "userId": 2,
-    "id": 1,
-    "title": "this is title",
-    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nrechitecto"
-  },
-  {
-    "userId": 1,
-    "id": 2,
-    "title": "second title",
-    "body": "test"
-  }],
- "jobs":
- { "unit" : "DK I",
-   "proyek" : "Pembangunan jalan tol",
-   "results" : 
-  [
-    {
-      "id" : "1",
-      "pekerjaan": "Pekerjaan Tanah",
-      "kriteria" :
-      [
-         {
-           "id": "1",
-           "title": "1. Quarry Tanah"
-         },
-         {
-           "id": "1",
-           "title": "2. Timbunan tanah"
-         },
-         {
-           "id": "1",
-           "title": "3. Galian Tanah"
-         }
-      ]
-     },
-    {
-      "id" : "2",
-       "pekerjaan": "Pekerjaan perkerasan berbutir",
-       "kriteria" :
-       [
-       ]
-    },
-    {
-      "id" : "3",
-       "pekerjaan": "Pekerjaan bors",
-       "kriteria" :
-       [
-       ]
+{ 
+"result": {
+        "unit": "DK1",
+        "proyek": "Pembangunan",
+        "data": [
+            {
+                "id": 40,
+                "title": "PEKERJAAN PASANGAN BATU KOSONG /RIP RAP",
+                "sub": [
+                    {
+                        "id_sub": 0,
+                        "title": null,
+                        "kriteria": [
+                            {
+                                "item": "Dimensi sesuai dengan desain yang direncanakan"
+                            },
+                            {
+                                "item": "Dimensi pada Frame batu kosang sesuai gambar "
+                            },
+                            {
+                                "item": "Permukaan batu rata"
+                            },
+                            {
+                                "item": "Visual dan dimensi Ban-banan presisi"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 41,
+                "title": "Pekerjaan Tanah",
+                "sub": [
+                    {
+                        "id_sub": 55,
+                        "title": "Quarry Tanah",
+                        "kriteria": [
+                            {
+                                "item": "Hasil uji laboratorium sesuai spesifikasi ( CBR, P"
+                            },
+                            {
+                                "item": "Maksimum size butiran dan warna sesuai hasil uji a"
+                            },
+                            {
+                                "item": "Secara visual tanah tidak terdapat kandungan bahan"
+                            },
+                            {
+                                "item": "seperti : Akar, tonggak, alang-alang, dan lain-lai"
+                            }
+                        ]
+                    },
+                    {
+                        "id_sub": 56,
+                        "title": "Timbunan tanah",
+                        "kriteria": [
+                            {
+                                "item": "Ada hasil Pengujian Tanah dan hasil trial compacti"
+                            },
+                            {
+                                "item": "Jumlah lintasan pemadatan sesuai hasil Trial Compa"
+                            },
+                            {
+                                "item": "Dimensi Galian / stripping sesuai gambar kerja"
+                            }
+                        ]
+                    },
+                    {
+                        "id_sub": 57,
+                        "title": "testing sub",
+                        "kriteria": [
+                            {
+                                "item": "testing item"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 42,
+                "title": "PEDESTRIAN, KANSTEEN, PAVING & INLET",
+                "sub": [
+                    {
+                        "id_sub": 58,
+                        "title": "Pedestrian & Kansteen",
+                        "kriteria": [
+                            {
+                                "item": "Pedestrian, kansten terpasang lurus, rata / tidak "
+                            },
+                            {
+                                "item": "Nat kansten halus, bersih, lebar sama sesuai desai"
+                            },
+                            {
+                                "item": "Pedestrian, kansten bersih dari kotor tanah & aduk"
+                            },
+                            {
+                                "item": "Kansten tidak retak, tidak ambles."
+                            },
+                            {
+                                "item": "Pedestrian & kansteen tidak berlumut & tidak licin"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
-  ]
- },
- "listjobs": [
-   {
-     "jobId": 1,
-     "id": 1,
-     "title": "Hasil uji laboratorium sesuai spesifikasi ( CBR, PI, LL, Dry density lab.)"
-   },
-   {
-     "jobId": 1,
-     "id": 2,
-     "title": "Maksimum size butiran dan warna sesuai hasil uji atau sesuai contoh yang di uji)"
-   },
-   {
-     "jobId": 2,
-     "id": 3,
-     "title": "Ada hasil Pengujian Tanah dan hasil trial compaction setiap quarry tanah"
-   }
-  ],
- "users": [
-  {
-    "id": 1,
-    "name": "Leanne Graham",
-    "username": "Bret",
-    "email": "Sincere@april.biz",
-    "address": {
-      "street": "Kulas Light",
-      "suite": "Apt. 556",
-      "city": "Gwenborough",
-      "zipcode": "92998-3874",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
-      }
-    },
-    "phone": "1-770-736-8031 x56442",
-    "website": "hildegard.org",
-    "company": {
-      "name": "Romaguera-Crona",
-      "catchPhrase": "Multi-layered client-server neural-net",
-      "bs": "harness real-time e-markets"
-    }
-  },
-  {
-    "id": 2,
-    "name": "Ervin Howell",
-    "username": "Antonette",
-    "email": "Shanna@melissa.tv",
-    "address": {
-      "street": "Victor Plains",
-      "suite": "Suite 879",
-      "city": "Wisokyburgh",
-      "zipcode": "90566-7771",
-      "geo": {
-        "lat": "-43.9509",
-        "lng": "-34.4618"
-      }
-    },
-    "phone": "010-692-6593 x09125",
-    "website": "anastasia.net",
-    "company": {
-      "name": "Deckow-Crist",
-      "catchPhrase": "Proactive didactic contingency",
-      "bs": "synergize scalable supply-chains"
-    }
-  } ],
- "results":
- { "results" :
-   [
-    {
-      "title": "Ginger Champagne",
-      "href": "http://allrecipes.com/Recipe/Ginger-Champagne/Detail.aspx",
-      "ingredients": "champagne, ginger, ice, vodka",
-      "thumbnail": "http://img.recipepuppy.com/1.jpg"
-    },
-    {
-      "title": "Potato and Cheese Frittata",
-      "href": "http://allrecipes.com/Recipe/Potato-and-Cheese-Frittata/Detail.aspx",
-      "ingredients": "cheddar cheese, eggs, olive oil, onions, potato, salt",
-      "thumbnail": "http://img.recipepuppy.com/2.jpg"
-    },
-    {
-      "title": "Eggnog Thumbprints",
-      "href": "http://allrecipes.com/Recipe/Eggnog-Thumbprints/Detail.aspx",
-      "ingredients": "brown sugar, butter, butter, powdered sugar, eggs, flour, nutmeg, rum, salt, vanilla extract, sugar",
-      "thumbnail": "http://img.recipepuppy.com/3.jpg"
-    },
-    {
-      "title": "Succulent Pork Roast",
-      "href": "http://allrecipes.com/Recipe/Succulent-Pork-Roast/Detail.aspx",
-      "ingredients": "brown sugar, garlic, pork chops, water",
-      "thumbnail": "http://img.recipepuppy.com/4.jpg"
-    },
-    {
-      "title": "Irish Champ",
-      "href": "http://allrecipes.com/Recipe/Irish-Champ/Detail.aspx",
-      "ingredients": "black pepper, butter, green onion, milk, potato, salt",
-      "thumbnail": "http://img.recipepuppy.com/5.jpg"
-    },
-    {
-      "title": "Chocolate-Cherry Thumbprints",
-      "href": "http://allrecipes.com/Recipe/Chocolate-Cherry-Thumbprints/Detail.aspx",
-      "ingredients": "cocoa powder, baking powder, butter, eggs, flour, oats, salt, sugar, vanilla extract",
-      "thumbnail": "http://img.recipepuppy.com/6.jpg"
-    },
-    {
-      "title": "Mean Woman Pasta",
-      "href": "http://allrecipes.com/Recipe/Mean-Woman-Pasta/Detail.aspx",
-      "ingredients": "garlic, kalamata olive, olive oil, pepperoncini, seashell pasta, tomato",
-      "thumbnail": "http://img.recipepuppy.com/7.jpg"
-    },
-    {
-      "title": "Hot Spiced Cider",
-      "href": "http://allrecipes.com/Recipe/Hot-Spiced-Cider/Detail.aspx",
-      "ingredients": "allspice, apple cider, brown sugar, cinnamon, cloves, nutmeg, orange, salt",
-      "thumbnail": "http://img.recipepuppy.com/8.jpg"
-    },
-    {
-      "title": "Isa's Cola de Mono",
-      "href": "http://allrecipes.com/Recipe/Isas-Cola-de-Mono/Detail.aspx",
-      "ingredients": "cinnamon, cloves, instant coffee, milk, rum, vanilla extract, water, sugar",
-      "thumbnail": "http://img.recipepuppy.com/9.jpg"
-    }
-  ]
- }
 }

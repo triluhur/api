@@ -1,16 +1,4 @@
-{ "data": [
-  {
-    "userId": 2,
-    "id": 1,
-    "title": "this is title",
-    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nrechitecto"
-  },
-  {
-    "userId": 1,
-    "id": 2,
-    "title": "second title",
-    "body": "test"
-  }],
+{
  "jobs":
  { "unit" : "DK I",
    "proyek" : "Pembangunan jalan tol",
